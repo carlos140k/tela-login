@@ -21,3 +21,12 @@ body {
     transform: translateY(50%);
     flex-direction: column;
 }
+
+.container h2 {
+    margin: 2rem 0;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #f6f6f9;
+    border-bottom: 1px solid #f6f6f9;
+    font-size: 2rem;
+}
