@@ -7,19 +7,26 @@
 
 body {
     background-color: #f6f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 450px;
     background-color: #0088d2;
     border-radius: 70px 0 70px 0;
     padding: 20px 50px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: center;
-    transform: translateY(50%);
-    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .container h2 {
@@ -56,15 +63,15 @@ body {
 }
 
 .form a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     background-color: #f6f6f9;
     height: 50px;
     padding: 15px;
     text-align: center;
     margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
     color: #000;
     font-size: 1.2rem;
