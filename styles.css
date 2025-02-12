@@ -70,3 +70,19 @@ body {
     font-size: 1.2rem;
     border-radius: 5px;
 }
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.link a {
+    color: #f6f6f9;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
