@@ -30,3 +30,14 @@ body {
     border-bottom: 1px solid #f6f6f9;
     font-size: 2rem;
 }
+
+.form label, input {
+    display: block;
+    width: 100%;
+}
+
+.form label {
+    margin-bottom: 2px;
+    color: #f6f6f9;
+    font-size: 18px;
+}
